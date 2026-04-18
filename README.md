@@ -32,15 +32,13 @@ npm run build
 - **Visuals**: Brand gradient `linear-gradient(90deg, #3B82F6, #F97316)` for CTA and gradient text; Inter from Google Fonts.
 - **Entry**: `src/index.js` (standard CRA bootstrap).
 
-## Deployment
-
-Build output is in `build/`. Deploy the `build` folder to **Vercel**, **Netlify**, or **GitHub Pages** (CRA works best with a static host; set the site root to `build`).
-
-## Assumptions
-
-- Figma was not queried programmatically; spacing, type scale, and radii are tuned to match the reference and a **max content width of 1200px**. Product imagery uses high-quality stock photos via URLs in JSON (replace with brand assets if required).
-- Screenshots for “implementation vs Figma” and a live URL should be added before submission per the brief.
-
 ## Screenshots
 
 Add screenshots of the hero and features sections here before submitting (as required by the assessment).
+
+<img width="1885" height="974" alt="image" src="https://github.com/user-attachments/assets/23d48d85-26e8-4907-826a-ff956d8215f9" />
+
+<img width="1895" height="965" alt="image" src="https://github.com/user-attachments/assets/6a831f81-2895-4473-be58-b4e4426d3d8f" />
+
+<img width="1895" height="965" alt="image" src="https://github.com/user-attachments/assets/90f2fd29-bab7-4e09-8302-6a0c1dc4e23e" />
+
