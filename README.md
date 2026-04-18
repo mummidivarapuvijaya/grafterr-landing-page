@@ -40,5 +40,3 @@ Add screenshots of the hero and features sections here before submitting (as req
 
 <img width="1895" height="965" alt="image" src="https://github.com/user-attachments/assets/6a831f81-2895-4473-be58-b4e4426d3d8f" />
 
-<img width="1895" height="965" alt="image" src="https://github.com/user-attachments/assets/90f2fd29-bab7-4e09-8302-6a0c1dc4e23e" />
-
