@@ -1,0 +1,25 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text: #111827;
+  --color-text-muted: #6b7280;
+  --color-border: #e5e7eb;
+
+  --gradient-brand: linear-gradient(90deg, #3b82f6, #f97316);
+  --gradient-text: linear-gradient(90deg, #3b82f6, #f97316);
+
+  --color-shape-teal: #14b8a6;
+  --color-shape-coral: #fb7185;
+
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --container-max: 1200px;
+  --container-pad-x: 24px;
+
+  --radius-pill: 999px;
+  --radius-card: 16px;
+
+  --shadow-card: 0 1px 3px rgb(15 23 42 / 6%);
+
+  --transition-fast: 180ms ease;
+  --carousel-duration: 300ms;
+}

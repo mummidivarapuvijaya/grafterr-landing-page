@@ -1,0 +1,67 @@
+.shape {
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.blob {
+  width: 48px;
+  height: 48px;
+  border-radius: 50% 50% 45% 55%;
+  left: 4%;
+  top: 18%;
+  animation: floatA 7s ease-in-out infinite;
+}
+
+.bar {
+  width: 56px;
+  height: 18px;
+  border-radius: 6px;
+  right: 8%;
+  top: 28%;
+  animation: floatB 6s ease-in-out infinite;
+}
+
+.teal {
+  background: var(--color-shape-teal);
+  opacity: 0.9;
+}
+
+.coral {
+  background: var(--color-shape-coral);
+  opacity: 0.95;
+}
+
+@keyframes floatA {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate(8px, -10px) rotate(6deg);
+  }
+}
+
+@keyframes floatB {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-10px, 8px);
+  }
+}
+
+@media (max-width: 767px) {
+  .blob {
+    width: 36px;
+    height: 36px;
+    left: 2%;
+  }
+
+  .bar {
+    width: 44px;
+    height: 14px;
+    right: 4%;
+  }
+}

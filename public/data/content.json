@@ -1,0 +1,105 @@
+{
+  "ui": {
+    "errorMessage": "We couldn’t load the page content. Check your connection and try again.",
+    "retryLabel": "Retry"
+  },
+  "navigation": {
+    "logo": {
+      "src": "/images/logo.svg",
+      "alt": "Grafterr"
+    },
+    "links": [
+      { "id": "nav-products", "label": "Products", "href": "#features" },
+      { "id": "nav-solutions", "label": "Solutions", "href": "#solutions" }
+    ],
+    "cta": {
+      "id": "nav-cta",
+      "label": "Get started",
+      "href": "#contact"
+    }
+  },
+  "hero": {
+    "headlinePrefix": "Looking for a new ",
+    "headlineGradient": "technology provider?",
+    "subheadline": "Explore our **success stories** to see how businesses like yours have transformed with Grafterr’s technology.",
+    "cta": {
+      "id": "hero-cta",
+      "label": "Learn more",
+      "href": "#features"
+    },
+    "decorativeShapes": [
+      {
+        "id": "shape-teal",
+        "variant": "blob",
+        "color": "teal"
+      },
+      {
+        "id": "shape-coral",
+        "variant": "bar",
+        "color": "coral"
+      }
+    ]
+  },
+  "featuresSection": {
+    "title": "More ways **Grafterr** can help you ",
+    "titleAccent": "grow your business",
+    "subtitle": "An award-winning, end-to-end restaurant technology & payments platform, designed to streamline food service and automate complex venue operations",
+    "products": [
+      {
+        "id": "product-pos",
+        "title": "Point of Sale",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=900&q=80",
+          "alt": "Point of sale terminal with ordering screen"
+        }
+      },
+      {
+        "id": "product-self",
+        "title": "Self-service",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80",
+          "alt": "Self-service ordering kiosk"
+        }
+      },
+      {
+        "id": "product-kitchen",
+        "title": "Kitchen Management",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=900&q=80",
+          "alt": "Kitchen display with order tickets"
+        }
+      },
+      {
+        "id": "product-ordering",
+        "title": "Online ordering",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=900&q=80",
+          "alt": "Guest placing an order on a phone"
+        }
+      },
+      {
+        "id": "product-payments",
+        "title": "Payments & loyalty",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=900&q=80",
+          "alt": "Contactless card payment at the counter"
+        }
+      },
+      {
+        "id": "product-insights",
+        "title": "Reporting & insights",
+        "image": {
+          "src": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80",
+          "alt": "Business analytics dashboard on a laptop"
+        }
+      }
+    ],
+    "carousel": {
+      "itemsPerView": { "mobile": 1, "tablet": 2, "desktop": 3 },
+      "showArrows": true,
+      "transitionMs": 300,
+      "previousLabel": "Previous products",
+      "nextLabel": "Next products"
+    }
+  }
+}

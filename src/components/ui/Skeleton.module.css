@@ -1,0 +1,103 @@
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.block {
+  border-radius: 8px;
+  background: linear-gradient(
+    90deg,
+    #f3f4f6 0%,
+    #e5e7eb 50%,
+    #f3f4f6 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.4s ease infinite;
+}
+
+.hero {
+  padding: 96px var(--container-pad-x) 80px;
+}
+
+.heroInner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.lineLg {
+  height: 40px;
+  max-width: 640px;
+  margin: 0 auto 16px;
+}
+
+.lineMd {
+  height: 22px;
+  max-width: 520px;
+  margin: 0 auto 28px;
+}
+
+.btn {
+  height: 48px;
+  width: 160px;
+  margin: 0 auto;
+  border-radius: var(--radius-pill);
+}
+
+.features {
+  padding: 48px var(--container-pad-x) 96px;
+}
+
+.featuresInner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+}
+
+.title {
+  height: 36px;
+  max-width: 720px;
+  margin: 0 auto 16px;
+}
+
+.sub {
+  height: 20px;
+  max-width: 880px;
+  margin: 0 auto 24px;
+}
+
+.divider {
+  height: 2px;
+  max-width: 120px;
+  margin: 0 auto 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  height: 280px;
+  border-radius: var(--radius-card);
+}
+
+@media (max-width: 1023px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 72px var(--container-pad-x) 56px;
+  }
+}

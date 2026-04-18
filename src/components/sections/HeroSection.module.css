@@ -1,0 +1,45 @@
+.section {
+  position: relative;
+  padding: 72px var(--container-pad-x) 88px;
+  overflow: hidden;
+}
+
+.inner {
+  position: relative;
+  z-index: 1;
+  max-width: 820px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.headline {
+  margin: 0 0 20px;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+.subheadline {
+  margin: 0 0 32px;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  color: var(--color-text-muted);
+  font-weight: 400;
+}
+
+.ctaRow {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding: 56px var(--container-pad-x) 64px;
+  }
+
+  .subheadline {
+    font-size: 1rem;
+  }
+}
